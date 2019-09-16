@@ -5,14 +5,14 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	double x, v, t;
 	double a = -9.8;
-	cout << "Ââåäèòå X0:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ X0:";
 	cin >> x;
-	cout << "Ââåäèòå V0:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ V0:";
 	cin >> v;
-	cout << "Ââåäèòå t:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ t:";
 	cin >> t;
-	cout << "Ïåðâûé ñïîñîá(a*t*t/2): X(t)=" << x + v + a * t * t / 2;
-	//cout << "\n" << "Âòîðîé ñïîñîá(1/2*a*t*t): X(t)=" << x + v + 1 / 2 * a * t * t << "\n";//
+	cout << "ÐŸÐµÑ€Ð²Ñ‹Ð¹ ÑÐ¿Ð¾ÑÐ¾Ð±(a*t*t/2): X(t)=" << x + v + a * t * t / 2;
+	//cout << "\n" << "Ð’Ñ‚Ð¾Ñ€Ð¾Ð¹ ÑÐ¿Ð¾ÑÐ¾Ð±(1/2*a*t*t): X(t)=" << x + v + 1 / 2 * a * t * t << "\n";//
 	system("pause");
 	return 0;
 }
