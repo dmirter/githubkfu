@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	cout << "Ðåçóëüòàò âû÷èñëåíèÿ 2+2*2= " << 2 + 2 * 2;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ 2+2*2= " << 2 + 2 * 2;
 	system("pause");
 	return 0;
 }
