@@ -7,9 +7,9 @@
 ### Отчёт по лабораторной работе № 2<br/> по дисциплине "Программирование"
 <br/>
 ​
-студента 1 курса группы 191(2)  
-<br/>Лисовского Владимира Сергеевича  
-<br/>направления подготовки 09.03.01 "Информатика и вычислительная техника" 
+студента 1 курса группы 192(2)  
+<br/>Кодаченко Никита Владимирович  
+<br/>направления подготовки 09.03.04 "Программная инженерия" 
 
 <br/><br/>
 <table>
@@ -30,7 +30,7 @@
 
 #### Ход работы
 
-Из таблицы была выбрана фукция ![](img2/pic4.png).
+Из таблицы была выбрана фукция ![](img/1.png).
 
 1. Протабулируйте функцию и запишите получившиеся реультаты в отчёт в виде таблицы. При этом ***a*** = 0.7, ***b*** = 1.2, начала 
 и конца интервала ***х<sub>нач</sub>*** = 0.5, ***x<sub>кон</sub>*** = 1.5 и шага ***d<sub>x</sub>*** = 0.05;
@@ -65,4 +65,57 @@
     
 3. График функции 4 с нанесенными точками, которые получились в процессе табуляции, и точками минимума и максимума (рис. 1).
     
-    ![](Screenshots/Screenshot2.png) (рис. 1)
+    ![](img/2.png) (рис. 1)
+    
+#### Код программы
+```cpp
+#include <iostream>
+#include <cstdlib>
+#include <cmath>
+using namespace std;
+bool doubleEquals(double left, double right, double epsilon) {
+    return (fabs(left - right) < epsilon);
+}
+bool doubleLess(double left, double right, double epsilon,
+    bool orequal = false) {
+    if (fabs(left - right) < epsilon) {
+        // В рамках epsilon, так что считаются равными
+        return (orequal);
+    }
+    return (left < right);
+
+}
+bool doubleGreater(double left, double right, double epsilon,
+    bool orequal = false) {
+    if (fabs(left - right) < epsilon) {
+        // В рамках epsilon, так что считаются равными
+        return (orequal);
+    }
+    return (left > right);
+}
+int main()
+{
+    float a, b, x0, x1, dx, x, xi, max, min;
+    cin >> a >> b >> x0 >> x1 >> dx;
+    x = x0;
+    max = x0;
+    min = x0;
+    while (doubleLess(x, x1, .0001, true)) {
+        if (doubleLess(x, a, .0001, true)) xi = x * x + sin(x);
+        else if (doubleGreater(x, a, .0001) && doubleLess(x, b, .0001)) xi = cos(x * x);
+        else if (doubleLess(x, b, .0001, true)) xi = log(2) / log(x);
+        if (max < xi)max = xi;
+        if (min > xi)min = xi;
+        cout << xi << "    " << x << "\n";
+        x += dx;
+    }
+    cout << "Max=" << max << "    Min=" << min;
+    system("pause");
+```
+
+#### Вывод
+
+в ходе лабораторной работы были получены такие навыки, как
+* умение применять оператор ветвления и циклы;
+* умение разработки и программирования вычислительного процесса циклической структуры;
+* умение программирования алгоритмов разветвляющейся структуры.
