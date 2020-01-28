@@ -88,7 +88,7 @@
 ![](https://github.com/NikitaGitHub19/Practice/blob/master/Lab1/Screenshots/Screenshot_14.png?raw=true "Рис. 12. Значение переменной в момент объявления")
 </br>Рис. 12. Значение переменной в момент объявления
 
-![](https://github.com/NikitaGitHub19/Practice/blob/master/Lab1/Screenshots/Screenshot_15.png?raw=true "Рис. 13. Значение переменной после присваивания")
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_15.png?raw=true "Рис. 13. Значение переменной после присваивания")
 </br>Рис. 13. Значение переменной после присваивания
 
 #### Вывод: мы изучили основные возможности создания и отладки программ в MS Visual Studio. Узнали как можно поменять оформление, как найти файлы проекта, научились коментировать, а так же запускать код в режиме отладки и без.
