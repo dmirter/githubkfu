@@ -80,12 +80,12 @@
 ![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_12.png?raw=true "Рис. 10. Значение переменной в момент объявления")
 </br>Рис. 10. Значение переменной в момент объявления
 
-![](https://github.com/NikitaGitHub19/Practice/blob/master/Lab1/Screenshots/Screenshot_13.png?raw=true "Рис. 11. Значение переменной после присваивания")
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_13.png?raw=true "Рис. 11. Значение переменной после присваивания")
 </br>Рис. 11. Значение переменной после присваивания
 
 10) Меняем тип с int на double и повторяем пункт 9).
 
-![](https://github.com/NikitaGitHub19/Practice/blob/master/Lab1/Screenshots/Screenshot_14.png?raw=true "Рис. 12. Значение переменной в момент объявления")
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_14.png?raw=true "Рис. 12. Значение переменной в момент объявления")
 </br>Рис. 12. Значение переменной в момент объявления
 
 ![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_15.png?raw=true "Рис. 13. Значение переменной после присваивания")
