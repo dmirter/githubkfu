@@ -9,7 +9,7 @@
 ​
 студента 1 курса группы 192(2)  
 <br/>Кодаченко Никита Владимирович  
-<br/>направления подготовки 09.03.01 "Программная инженерия" 
+<br/>направления подготовки 09.03.04 "Программная инженерия" 
 
 <br/><br/>
 <table>
@@ -66,3 +66,56 @@
 3. График функции 4 с нанесенными точками, которые получились в процессе табуляции, и точками минимума и максимума (рис. 1).
     
     ![](img/2.png) (рис. 1)
+    
+    #### Код программы
+    ```cpp
+    #include <iostream>
+#include <cstdlib>
+#include <cmath>
+using namespace std;
+bool doubleEquals(double left, double right, double epsilon) {
+    return (fabs(left - right) < epsilon);
+}
+bool doubleLess(double left, double right, double epsilon,
+    bool orequal = false) {
+    if (fabs(left - right) < epsilon) {
+        // В рамках epsilon, так что считаются равными
+        return (orequal);
+    }
+    return (left < right);
+
+}
+bool doubleGreater(double left, double right, double epsilon,
+    bool orequal = false) {
+    if (fabs(left - right) < epsilon) {
+        // В рамках epsilon, так что считаются равными
+        return (orequal);
+    }
+    return (left > right);
+}
+int main()
+{
+    float a, b, x0, x1, dx, x, xi, max, min;
+    cin >> a >> b >> x0 >> x1 >> dx;
+    x = x0;
+    max = x0;
+    min = x0;
+    while (doubleLess(x, x1, .0001, true)) {
+        if (doubleLess(x, a, .0001, true)) xi = x * x + sin(x);
+        else if (doubleGreater(x, a, .0001) && doubleLess(x, b, .0001)) xi = cos(x * x);
+        else if (doubleLess(x, b, .0001, true)) xi = log(2) / log(x);
+        if (max < xi)max = xi;
+        if (min > xi)min = xi;
+        cout << xi << "    " << x << "\n";
+        x += dx;
+    }
+    cout << "Max=" << max << "    Min=" << min;
+    system("pause");
+```
+
+#### Вывод
+
+в ходе лабораторной работы были получены такие навыки, как
+* умение применять оператор ветвления и циклы;
+* умение разработки и программирования вычислительного процесса циклической структуры;
+* умение программирования алгоритмов разветвляющейся структуры.
