@@ -67,9 +67,9 @@
     
     ![](img/2.png) (рис. 1)
     
-    #### Код программы
-    ```cpp
-    #include <iostream>
+#### Код программы
+```cpp
+#include <iostream>
 #include <cstdlib>
 #include <cmath>
 using namespace std;
