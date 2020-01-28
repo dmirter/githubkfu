@@ -27,11 +27,11 @@
 
 1) Чтобы создать консольное приложение C++, нужно в Visual Studio на верхней панели нажать `Файл -> Создать -> Проект`.
 
-![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_1.png"Рис. 1. Создание проекта")
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_1.png "Рис. 1. Создание проекта")
 
 Теперь в открывшемся окне выбираем `Visual C++ -> Консольное приложение`. Дальше выбираем имя и имя решения, а затем нажимаем `Oк`.
 
-![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_2.png"Рис. 2. Создание консольного приложения")
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_2.png "Рис. 2. Создание консольного приложения")
 
 2) Чтобы изменить цветовую схему, в Visual Studio в верхней панели нажимаем `Инструменты R -> Параметры`.
 
@@ -43,7 +43,7 @@
 
 3) Чтобы закоментировать блок кода, нужно добавить `//` перед блоком кода, если нужно закоментировать строку или `/*`перед блоком кода и `*/` после, если нужно закоментировать более одной строки. 
 
-![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_5.png"Рис. 5. Коментируем блоки кода")
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab1/Screenshots/Screenshot_5.png "Рис. 5. Коментируем блоки кода")
 
 Соответственно, если вы хотите раскоментировать, то `//` `/* */` нужно убрать. 
 Так же можно выделить блок кода, который вы хотите закоментировать и воспользоваться комбинацией горячих клавиш `Ctrl + K`, а затем `Ctrl + C`, чтобы закоментировать выделенный блок кода. Аналогично можно нажать `Ctrl + K`, а затем `Ctrl + U`, чтобы раскоментировать.
