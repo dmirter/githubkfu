@@ -79,7 +79,7 @@ bool doubleEquals(double left, double right, double epsilon) {
 bool doubleLess(double left, double right, double epsilon,
     bool orequal = false) {
     if (fabs(left - right) < epsilon) {
-        // В рамках epsilon, так что считаются равными
+        // В рамках epsilon, так что считаются равными fabs-Функция вычисляет абсолютное значение (модуль) и возвращает его
         return (orequal);
     }
     return (left < right);
@@ -88,7 +88,7 @@ bool doubleLess(double left, double right, double epsilon,
 bool doubleGreater(double left, double right, double epsilon,
     bool orequal = false) {
     if (fabs(left - right) < epsilon) {
-        // В рамках epsilon, так что считаются равными
+        // В рамках epsilon, так что считаются равными fabs-Функция вычисляет абсолютное значение (модуль) и возвращает его
         return (orequal);
     }
     return (left > right);
