@@ -75,6 +75,7 @@
 using namespace std;
 bool doubleEquals(double left, double right, double epsilon) {
     return (fabs(left - right) < epsilon);
+    // epsilon) — числовое значение, меньше которого невозможно задавать относительную точность для любого алгоритма, возвращающего вещественные числа.
 }
 bool doubleLess(double left, double right, double epsilon,
     bool orequal = false) {
