@@ -76,11 +76,12 @@ using namespace std;
 bool doubleEquals(double left, double right, double epsilon) {
     return (fabs(left - right) < epsilon);
     // epsilon) — числовое значение, меньше которого невозможно задавать относительную точность для любого алгоритма, возвращающего вещественные числа.
+    //fabs-Функция вычисляет абсолютное значение (модуль) и возвращает его
 }
 bool doubleLess(double left, double right, double epsilon,
     bool orequal = false) {
     if (fabs(left - right) < epsilon) {
-        // В рамках epsilon, так что считаются равными fabs-Функция вычисляет абсолютное значение (модуль) и возвращает его
+        // В рамках epsilon, так что считаются равными
         return (orequal);
     }
     return (left < right);
@@ -89,7 +90,7 @@ bool doubleLess(double left, double right, double epsilon,
 bool doubleGreater(double left, double right, double epsilon,
     bool orequal = false) {
     if (fabs(left - right) < epsilon) {
-        // В рамках epsilon, так что считаются равными fabs-Функция вычисляет абсолютное значение (модуль) и возвращает его
+        // В рамках epsilon, так что считаются равными 
         return (orequal);
     }
     return (left > right);
