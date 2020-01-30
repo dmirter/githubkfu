@@ -105,7 +105,7 @@ int main()
     while (doubleLess(x, x1, .0001, true)) {
         if (doubleLess(x, a, .0001, true)) xi = x * x + sin(x);
         else if (doubleGreater(x, a, .0001) && doubleLess(x, b, .0001)) xi = cos(x * x);
-        else if (doubleLess(x, b, .0001, true)) xi = log(2) / log(x);
+        else if (doublEGreater(x, b, .0001, true)) xi = ln(x) / ln(2);
         if (max < xi)max = xi;
         if (min > xi)min = xi;
         cout << xi << "    " << x << "\n";
