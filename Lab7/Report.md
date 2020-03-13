@@ -65,13 +65,12 @@ int main() {
 **13.Сейчас вы находитесь на вкладке «Проекты». Выберите комплект сборки. На рис. 1 присутствует только один комплект, но их может быть больше, например для сборки под Android или компилятором MSVS;**<br/>
 **14.Перейдите на вкладку «Редактор» и запустите сборку проекта;**<br/>
 **15.В инспекторе проекта выберите файл «main.cpp». В этом файле установите курсор на слово «show» в строке calculator.show(); и нажмите F1. Изучите справочную информацию. Таким же образом можно получить справку по любому объекту/методу/полю доступному в Qt;**<br/>
-![](Screnshots/Screenshot_15.png)<br/>Рис.1 Код файла "main.cpp", Справка "Show"<br/>
 ![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_15.png?raw=true)<br/>Рис.1 Код файла "main.cpp", Справка "Show"<br/>
 **16.В инспекторе проекта выберите файл «Формы» => «calculatorform.ui» и дважды счёлкните ЛКМ;**<br/>
-![](Screnshots/Screenshot_16.1.png)<br/>
-![](Screnshots/Screenshot_16.2.png)<br/>Рис.2 То, что открылость после двойного нажатия на «calculatorform.ui»<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_16.1.png?raw=true)<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_16.2.png?raw=true)<br/>Рис.2 То, что открылость после двойного нажатия на «calculatorform.ui»<br/>
 **17.Вы попали на вкладку «Дизайн». На форме замените английский текст на русский. Пересоберите проект.**<br/>
-![](Screnshots/Screenshot_17.1.png)<br/>
-![](Screnshots/Screenshot_17.2.png)<br/>Рис.3 Изменение ангийских слов на русские<br/>
-![](Screnshots/Screenshot_17.3.png)<br/>Рис.4 Собранный результат<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_17.1.png?raw=true)<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_17.2.png?raw=true)<br/>Рис.3 Изменение ангийских слов на русские<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_17.3.png?raw=true)<br/>Рис.4 Собранный результат<br/>
 **Вывод:** Я изучил основные возможности создания и отладки программ в IDE Qt Creator.
