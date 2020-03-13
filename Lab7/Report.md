@@ -28,14 +28,23 @@
 
 **1. Как создать консольное приложение С++ в IDE Qt Creator без использования компонентов Qt?** <br/>
 Для того чтобы создать данное приложение, требуеться перейти во вкладку `"Файл"-"Создать файл или проект"`. Далее выбрать проект без QT, после чего приложение на С++. Далее выбираем директорию. <br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_1.1.png?raw=true)<br/>Рис.1 Вкладка `Файл`<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_1.2.png?raw=true)<br/>Рис.2 Окно `Новый файл или проект`<br/>
 **2. Как изменить цветовую схему (оформление) среды?** <br/>
 Выбираем вкладку `"Инструменты"-"Параметры"-"Среда"`. Там где написанно тема выбираем нужную и перезагружаем программу.<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_2.1.png?raw=true)<br/>Рис.3 Вкладка `Инструменты` подвкалдка`Параметры`<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_2.2.png?raw=true)<br/>Рис.4 Параметры QtCreator<br/>
 **3.Как закомментировать/раскомментировать блок кода средствами Qt Creator?** <br/>
 Выделяем нужную часть кода и нажимаем Ctrl+/<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_3.1.png?raw=true)<br/>Рис.5 Код программы без комментария<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_3.2png?raw=true)<br/>Рис.6 Код программы с закоментированной строкой<br/>
 **4.Как открыть в проводнике Windows папку с проектом средствами Qt Creator?** <br/>
 Для этого требуеться нажать на вкладку `"Файл"-"Открыть файл или проект"`, а затем перейти в директорию программы и запустить файл `.pro` <br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_4.1png?raw=true)<br/>Рис.7 Вкладка `Файл` подвкладка `Открыть файл ил проект`<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_4.2png?raw=true)<br/>Рис.8 Открытие файла<br/>
 **5.Какое расширение файла-проекта используется Qt Creator?**<br/>
 `.pro`<br/>
+![](https://github.com/NikitaGitHub19/githubkfu/blob/master/Lab7/Screenshots/Screenshot_5.1png?raw=true)<br/>Рис.9 Расширение файла<br/>
 **6.Как запустить код без отладки?**<br/>
 Нажать на зелёный треугольник слева-внизу(Ctrl+R) <br/>
 **7.Как запустить код в режиме отладки?**<br/>
